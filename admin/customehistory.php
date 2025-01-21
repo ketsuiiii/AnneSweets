@@ -26,19 +26,19 @@ $result = mysqli_query($connect, $query);
                     <div class="card-body">
                         <table class="table table-bordered  text-center">
                             <tr class="table-dark text-white">
-                                <td> FullName <td>
-                                <td> Email <td>
-                                <td> Contact <td>
-                                <td> cakeflavors <td>
-                                <td> cakesize <td>
-                                <td> sugarlevel <td>
-                                <td> toppings  <td>
-                                <td> suggestions <td>
-                                <td> layers <td>
-                                <td> colors <td>
-                                <td> themes <td>
-                                <td> Daddresss <td>
-                                <td> Delivery Date <td>
+                                <td> FullName </td>
+                                <td> Email </td>
+                                <td> Contact </td>
+                                <td> cakeflavors </td>
+                                <td> cakesize </td>
+                                <td> sugarlevel </td>
+                                <td> toppings  </td>
+                                <td> suggestions </td>
+                                <td> layers </td>
+                                <td> colors </td>
+                                <td> themes </td>
+                                <td> Daddresss </td>
+                                <td> Delivery Date </td>
                             </tr>
                             <tr>
                             <?php

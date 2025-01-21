@@ -26,17 +26,17 @@ $result = mysqli_query($connect, $query);
                     <div class="card-body">
                         <table class="table table-bordered  text-center">
                             <tr class="table-dark text-white">
-                                <td> FullName <td>
-                                <td> Email <td>
-                                <td> Contact <td>
-                                <td> cakeflavors <td>
-                                <td> toppings <td>
-                                <td> suggestions <td>
-                                <td> w_cupcakes  <td>
-                                <td> colors <td>
-                                <td> themes <td>
-                                <td> addresss <td>
-                                <td> date_to_delivered <td>
+                                <td> FullName </td>
+                                <td> Email </td>
+                                <td> Contact </td>
+                                <td> cakeflavors </td>
+                                <td> toppings </td>
+                                <td> suggestions </td>
+                                <td> w_cupcakes  </td>
+                                <td> colors </td>
+                                <td> themes </td>
+                                <td> addresss </td>
+                                <td> date_to_delivered </td>
                             </tr>
                             <tr>
                             <?php

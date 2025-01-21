@@ -26,13 +26,13 @@ $result = mysqli_query($connect, $query);
                     <div class="card-body">
                         <table class="table table-bordered  text-center">
                             <tr class="table-dark text-white">
-                                <td> FullName <td>
-                                <td> Email <td>
-                                <td> Contact <td>
-                                <td> Quantity <td>
-                                <td> Address <td>
-                                <td> Theme <td>
-                                <td> Delivery Date <td>
+                                <td> FullName </td>
+                                <td> Email </td>
+                                <td> Contact </td>
+                                <td> Quantity </td>
+                                <td> Address </td>
+                                <td> Theme </td>
+                                <td> Delivery Date </td>
                             </tr>
                             <tr>
                             <?php
