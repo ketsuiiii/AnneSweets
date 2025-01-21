@@ -149,7 +149,7 @@ include 'backend/phpmailer/custom_e.php';
 
             <div class="form-group">
                 <label for="date_to_delivered">Date to be Delivered:</label>
-                <textarea name="date_to_delivered" id="date_to_delivered" rows="5" required></textarea>
+                <input type="date" name="date_to_delivered" id="">
                 </select>
             </div>
 

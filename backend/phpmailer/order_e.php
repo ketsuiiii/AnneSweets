@@ -26,7 +26,7 @@ if (array_key_exists('email', $_POST)) {
         $body .= '<tr><td style="border: 1px solid #ddd; padding: 8px;"><strong>Fullname:</strong></td><td style="border: 1px solid #ddd; padding: 8px;">' . htmlspecialchars($_POST['fullname']) . '</td></tr>';
         $body .= '<tr><td style="border: 1px solid #ddd; padding: 8px;"><strong>Email:</strong></td><td style="border: 1px solid #ddd; padding: 8px;">' . htmlspecialchars($_POST['email']) . '</td></tr>';
         $body .= '<tr><td style="border: 1px solid #ddd; padding: 8px;"><strong>Contact:</strong></td><td style="border: 1px solid #ddd; padding: 8px;">' . htmlspecialchars($_POST['contact']) . '</td></tr>';
-        $body .= '<tr><td style="border: 1px solid #ddd; padding: 8px;"><strong>Caption:</strong></td><td style="border: 1px solid #ddd; padding: 8px;">' . htmlspecialchars($_POST['caption']) . '</td></tr>';
+        $body .= '<tr><td style="border: 1px solid #ddd; padding: 8px;"><strong>Greetings:</strong></td><td style="border: 1px solid #ddd; padding: 8px;">' . htmlspecialchars($_POST['caption']) . '</td></tr>';
         $body .= '<tr><td style="border: 1px solid #ddd; padding: 8px;"><strong>Address:</strong></td><td style="border: 1px solid #ddd; padding: 8px;">' . htmlspecialchars($_POST['addresss']) . '</td></tr>';
         $body .= '<tr><td style="border: 1px solid #ddd; padding: 8px;"><strong>Theme:</strong></td><td style="border: 1px solid #ddd; padding: 8px;">' . htmlspecialchars($_POST['theme']) . '</td></tr>';
         $body .= '<tr><td style="border: 1px solid #ddd; padding: 8px;"><strong>Date to deliver:</strong></td><td style="border: 1px solid #ddd; padding: 8px;">' . htmlspecialchars($_POST['date_to_delivered']) . '</td></tr>';

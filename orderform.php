@@ -104,7 +104,7 @@ $image = $_GET['image'];
 
             <div class="form-group">
                 <label for="Caption">Greetings:</label>
-                <input type="text" id="Caption" name="Caption" required>
+                <input type="text" id="caption" name="caption" required>
             </div>
 
             <div class="form-group">
@@ -114,7 +114,7 @@ $image = $_GET['image'];
 
             <div class="form-group">
                 <label for="date to delivered">Date to be Delivered:</label>
-                <textarea name="date to delivered" id="date to delivered" rows="5" required></textarea>
+               <input type="date" name="date_to_delivered" id="">
             </div>
 
             <button type="submit" name="send" value="Submit">Submit Order</button>
