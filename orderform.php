@@ -27,6 +27,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 $message = isset($_SESSION["message"]) ? $_SESSION["message"] : '';
 unset($_SESSION["message"]);
+
+include 'backend/phpmailer/order_e.php';
 ?>
 
 <?php 
