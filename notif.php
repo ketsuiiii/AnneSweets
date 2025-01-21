@@ -13,7 +13,8 @@
             <h2>Thank you for your order!</h2>
                 <p>
                     We've received it and will send you updates shortly via email.
-                    We appreciate your business!</p>
+                    We appreciate your business!</p><br>
+                <p>You'll receive a payment notification for your down payment within the next 24 hours.</p>
                 <a href="homepage.php"><button type="submit" name="notif" class="button-notif">Close</button></a>
         </div>
     </div>

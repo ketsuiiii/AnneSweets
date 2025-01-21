@@ -10,12 +10,19 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 600px;
+    width: 500px; /* Set a fixed width for the form container */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 20px;
+}
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
@@ -37,7 +44,7 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-input[type="number"],input[type="date"],
+input[type="number"],
 select,
 textarea {
     width: 100%;
@@ -76,4 +83,24 @@ button:hover {
     margin-top: 20px;
     text-align: center;
     color: #28a745;
+}
+
+.product-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 400px; /* Set a fixed width for the product container */
+    margin-right: 20px;
+}
+
+.product-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
 }

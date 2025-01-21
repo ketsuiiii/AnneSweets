@@ -13,9 +13,12 @@ $result = mysqli_query($connect, $query);
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <title>Order History</title> 
-    </head>
-
-<body class="bg-dark">
+        <link rel="stylesheet" href="sidebar.css">
+  </head>
+  <body>
+<?php include 'sidebar.php';?> 
+    <!-- Main Content -->
+    <div class="content" id="content">
     <div class="container">
         <div class="row mt-5"> 
             <div class="col">
@@ -26,7 +29,7 @@ $result = mysqli_query($connect, $query);
                     <div class="card-body">
                         <table class="table table-bordered  text-center">
                             <tr class="table-dark text-white">
-                                <td> FullName </td>
+                                <td> Full Name </td>
                                 <td> Email </td>
                                 <td> Contact </td>
                                 <td> Caption </td>
@@ -58,5 +61,7 @@ $result = mysqli_query($connect, $query);
             </div>
         </div>
     </div>
+    </div>
+    <script src="sidebar.js"></script>
 </body>
 </html>

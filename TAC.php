@@ -5,36 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sweet Creations</title>
     <link rel="stylesheet" href="TAC.css" />
+    <link rel="stylesheet" href="navbar.css">
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <div class="logo">
-        <a id="logo" href="homepage.php"><img src="Logo\Logo.jpg" alt="Anne" /></a>
-        <span>Sweet Creations</span>
-      </div>
-
-      <nav>
-        <ul class="right">
-          <li><a href="index.php">Front</a></li>
-          <li><a href="homepage.php">Products</a></li>
-          <li class="dropdown">
-            <a href="#cakes">Category</a>
-            <div class="dropdown-content">
-              <a href="birthdaycakes.php">Birthday Cakes</a>
-              <a href="cupcakes.php">Cupcakes</a>
-              <a href="bentocakes.php">Bento Cakes</a>
-              <a href="numbercakes.php">Number Cakes</a>
-              <a href="specialcakes.php">Specials</a>
-            </div>
-          </li>
-          <li><a href="customized.php">Customize</a></li>
-          <li><a href="TAC.php">Policy</a></li>
-          <li><a href="contact-us.php">Contact Us</a></li>
-        </ul>
-      </nav>
-      </div>
-    </header>
+  <?php include 'navbar.php'?>
 
     <div class="contact-container">
         <div class="owner-info">
@@ -61,6 +35,6 @@
                 <p>Thank you for your understanding and cooperation!</p><br>
         </div>
     </div>
-
+    <script src="navbar.js"></script>
 </body>
 </html>

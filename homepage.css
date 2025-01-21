@@ -128,7 +128,7 @@ nav a:hover {
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
     width: 150px; /* Adjust width as needed */
-    margin: 10px auto; /* Center the button within its container */
+    margin: 10px auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     /* text-decoration: none; */
 }
@@ -270,7 +270,7 @@ a {
 
 footer {
     background-color: #000000;
-    color: rgb(255, 242, 242);
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
   }

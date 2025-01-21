@@ -2,12 +2,12 @@
 
 require_once('backend/DB.php');
 
-// $dropSQL = "DROP TABLE IF EXISTS ordertbl";
-//  if (mysqli_query($connect, $dropSQL)) {
-//     echo '<div class="alert alert-success" role="alert">Table ordertbl dropped successfully (if it existed).</div>';
-//  } else {
-//     echo '<div class="alert alert-danger" role="alert">Error dropping table: ' . mysqli_error($connect) . '</div>';
-//  }
+//$dropSQL = "DROP TABLE IF EXISTS ordertbl";
+ //if (mysqli_query($connect, $dropSQL)) {
+   //  echo '<div class="alert alert-success" role="alert">Table ordertbl dropped successfully (if it existed).</div>';
+ //} else {
+   //  echo '<div class="alert alert-danger" role="alert">Error dropping table: ' . mysqli_error($connect) . '</div>';
+ //}
 
 
 $create_db_query = "CREATE TABLE IF NOT EXISTS ordertbl (
@@ -23,7 +23,7 @@ $create_db_query = "CREATE TABLE IF NOT EXISTS ordertbl (
 
 if ($connect->query($create_db_query) === TRUE) 
 {
-    // echo '<div class="alert alert-success" role="alert">Table `ordertbl` created successfully.</div>';
+    //echo '<div class="alert alert-success" role="alert">Table `ordertbl` created successfully.</div>';
 } 
 else 
 {

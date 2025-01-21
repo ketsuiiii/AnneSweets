@@ -36,9 +36,17 @@ unset($_SESSION["message"]);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bento Form</title>
-    <link rel="stylesheet" href="customstyle.css">
+    <link rel="stylesheet" href="orderformstyle.css">
 </head>
 <body>
+<div class="product-container">
+        <div class="product-details">
+            <h2 class="product-name">Description:<h2>
+                <p style="text-decoration: none;">A bento cake with cupcakes is a charming dessert set that combines a small,</p>
+                <p>single-serving cake with a few matching cupcakes, all beautifully packaged in a compact box.</p>
+                <p>The set offers variety and versatility, blending the simplicity and elegance of a bento cake with the fun and convenience of cupcakes.</p>
+        </div>
+    </div>
     <div class="container">
         <h1>Bento Cake Form</h1>
         <form action="bentocakeform.php" method="POST">

@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $toppings =  mysqli_real_escape_string($connect, $_POST["toppings"]);
     $suggestions =  mysqli_real_escape_string($connect, $_POST["suggestions"]);
     $layers =  mysqli_real_escape_string($connect, $_POST["layers"]);
-    $colors =  mysqli_real_escape_string($connect, $_POST["colors"]);
+    $colors =  mysqli_real_escape_string($connect, $_POST["colors"]); 
     $themes =  mysqli_real_escape_string($connect, $_POST["themes"]);
     $addresss =  mysqli_real_escape_string($connect, $_POST["addresss"]);
     $date_to_delivered =  mysqli_real_escape_string($connect, $_POST["date_to_delivered"]);
@@ -32,21 +32,25 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 $message = isset($_SESSION["message"]) ? $_SESSION["message"] : '';
 unset($_SESSION["message"]);
-
-include "backend/phpmailer/custom_e.php";
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom Form</title>
-    <link rel="stylesheet" href="customstyle.css">
+    <link rel="stylesheet" href="orderformstyle.css">
 </head>
-
 <body>
+
+<div class="product-container">
+        <div class="product-details">
+            <h2 class="product-name">Description:<h2>
+                <p style="text-decoration: none;">A special cake is a uniquely designed dessert crafted for significant occasions or personal milestones.</p>
+                <p>It often features intricate decorations, custom themes, or vibrant colors to match the event, such as birthdays, weddings, anniversaries, or holidays. Special cakes can include layers of different flavors, decadent fillings, and artistic elements like fondant sculptures, edible flowers, or hand-piped details.</p>
+        </div>
+    </div>
     <div class="container">
         <h1>Customize Cake Form</h1>
         <form action="customform.php" method="POST">
@@ -54,7 +58,7 @@ include "backend/phpmailer/custom_e.php";
                 <label for="fullName">Full Name:</label>
                 <input type="text" id="fullname" name="fullname" required>
             </div>
-
+            
             <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
@@ -144,16 +148,17 @@ include "backend/phpmailer/custom_e.php";
 
             <div class="form-group">
                 <label for="date_to_delivered">Date to be Delivered:</label>
-                <input type="date" name="date_to_delivered" id="date_to_delivered">
+                <textarea name="date_to_delivered" id="date_to_delivered" rows="5" required></textarea>
                 </select>
             </div>
 
+            <div class="form-group">
             <button type="submit">Submit Order</button>
+            </div>
         </form>
         <a href="homepage.php"><button type="submit" id="cancel">Cancel</button></a>
         <div id="confirmationMessage"></div>
     </div>
     <script src="javascript/customformscript.js"></script>
 </body>
-
 </html>

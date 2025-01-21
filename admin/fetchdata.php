@@ -1,5 +1,6 @@
 <?php 
-$connect = mysqli_connect("127.0.0.1:3306", "u181296074_binibasic", "Binibasic_access2025", "u181296074_sweetcakedb");
+require_once '../backend/DB.php';
+$connect = mysqli_connect($host, $username, $password, $dbname);
 
 if(!$connect) {
     die ("connection error");

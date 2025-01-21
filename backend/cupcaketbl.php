@@ -21,7 +21,7 @@ $create_db_query = "CREATE TABLE IF NOT EXISTS cupcaketbl (
 );";
 
 if ($connect->query($create_db_query) === TRUE) {
-    echo '<div class="alert alert-success" role="alert">Table `cctbl` created successfully.</div>';
+    //echo '<div class="alert alert-success" role="alert">Table `cctbl` created successfully.</div>';
 } else {
     echo '<div class="alert alert-danger" role="alert">Error creating table: ' . $connect->error . '</div>';
 }

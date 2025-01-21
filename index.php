@@ -100,7 +100,6 @@
         font-size: 3em;
         color: #ff6f61;
         margin-bottom: 10px;
-        animation: bounce 2s infinite;
       }
 
       nav ul {
@@ -144,7 +143,7 @@
       }
 
       nav li {
-        text-align: center;
+        text-align: left;
       }
 
       .dropdown:hover .dropdown-content {
@@ -213,56 +212,31 @@
       }
 
       footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-footer nav ul {
-    justify-content: center;
-}
-
-footer a {
-    color: white;
-    margin: 0 10px;
-}
-
-
-      .right {
-        float: right;
-        padding: 10x;
-        width: 150x;
+        background-color:rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        text-align: center;
       }
+  
+      footer nav ul {
+        justify-content: center;
+      }
+  
+      footer a {
+        color: rgb(0, 0, 0);
+        margin: 0 10px;
+      }
+
+          .right {
+            float: right;
+            padding: 10x;
+            width: 150x;
+          }
     </style>
+    <link rel="stylesheet" href="navbar.css">
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <a id="logo" href="homepage.php"><img src="Logo\Logo.jpg" alt="Anne" /></a>
-        <span>Sweet Creations</span>
-
-        <nav>
-        <ul class="right">
-          <li><a href="frontpage.php">Front</a></li>
-          <li><a href="homepage.php">Products</a></li>
-          <li class="dropdown">
-            <a href="#cakes">Category</a>
-            <div class="dropdown-content">
-              <a href="birthdaycakes.php">Birthday Cakes</a>
-              <a href="cupcakes.php">Cupcakes</a>
-              <a href="bentocakes.php">Bento Cakes</a>
-              <a href="numbercakes.php">Number Cakes</a>
-              <a href="specialcakes.php">Specials</a>
-            </div>
-          </li>
-          <li><a href="customized.php">Customize</a></li>
-          <li><a href="TAC.php">Policy</a></li>
-          <li><a href="contact-us.php">Contact Us</a></li>
-        </ul>
-      </nav>
-      </div>
-    </header>
+  <?php include 'navbar.php'?>
 
     <h1>Sweet Creations</h1>
     <a href="homepage.php" class="button">Let's get started</a>
@@ -277,6 +251,25 @@ footer a {
       bake your vision to perfection. Savor every moment with our handcrafted,
       custom-made cakes.
     </p>
-
+    <footer style="margin-top: 5%">
+      <div class="footerBottom">
+        <h3>NOTE<h3>
+        <p style="font-size: 12px"><span class="designer">Please note that the delivery date is 5–7 days after placing an order.<br> 
+          Once the order is submitted, changes to the provided details will not be possible.</span></p>
+        <p style="font-size: 12px"><span class="designer">Prices may vary according to location<br>
+          Additional disclaimer: Actual food presentation in website may vary</span></p>
+        <p style="font-size: 12px">Copyright &copy;2023; Designed by <span class="designer">BINI_BASIC</span></p>
+    </div>
+    <nav>
+      <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-regular fa-envelope"></i></a>
+        </div>
+      </nav>
+    </footer>
+    <script src="navbar.js"></script>
   </body>
 </html>

@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f0f0f0;
+    background: #f5f5f5;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -97,6 +97,10 @@ input:focus, textarea:focus {
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 button {
     background-color: #ff6f61;
     text-decoration: none;
@@ -112,4 +116,11 @@ button {
 
 button:hover {
     background-color: #ff9472;
+}
+
+p {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: medium;
+    text-indent: 50px;
 }

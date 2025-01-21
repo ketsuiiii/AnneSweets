@@ -46,7 +46,9 @@ $image = $_GET['image'];
         <img src="<?php echo $image ?>" class="product-image">
         <div class="product-details">
             <h2 class="product-name"><?php echo $name; ?></h2>
-            <p class="product-price"><?php echo $price; ?></p>
+            <p class="product-price">₱ <?php echo $price; ?></p>
+            <h4>Description:</h4>
+            <p>Our daily made cupcakes offer the freshest flavor and aroma. Each box contains six or more of these delightful treats.</p>
         </div>
     </div>
     <div class="container">
