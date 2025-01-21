@@ -197,8 +197,8 @@ nav a:hover {
   }
   
   footer {
-    background-color: #333;
-    color: white;
+    background-color: #fffefe;
+    color: rgb(12, 9, 9);
     padding: 20px;
     text-align: center;
   }
@@ -208,6 +208,6 @@ nav a:hover {
   }
   
   footer a {
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 0 10px;
   }

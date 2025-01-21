@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sweet Creations</title>
     <link rel="stylesheet" href="homepage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <!-- Header -->
@@ -29,7 +30,7 @@
             </div>
           </li>
           <li><a href="customized.php">Customize</a></li>
-          <li href="">Policy</li>
+          <li><a href="TAC.php">Policy</a></li>
           <li><a href="contact-us.php">Contact Us</a></li>
         </ul>
       </nav>
@@ -82,13 +83,13 @@
         </div>
         <div class="cake-card">
           <img
-            src="Cakes/01-Cinnamonroll themed cake.jpg"
+            src="Cakes\01-Cinnamoroll themed cake .jpg"
             height="250px"
             width="150px"
           />
           <h3>Cinnamoroll Themed Cake</h3>
           <p>Price: ₱ 600-700</p>
-          <a href="orderform.php?name=<?php echo urlencode("Cinnamonroll Themed Cake");?>&price=<?php echo "600-700";?>&image=Cakes\01-Cinnamonroll themed cake.jpg">
+          <a href="orderform.php?name=<?php echo urlencode("Cinnamonroll-Theme-Cake");?>&price=<?php echo "600-700";?>&image=Cakes\01-Cinnamoroll themed cake .jpg">
           <button class="order-button">
             <span class="order-text">Order Now</span>
             <img
@@ -663,17 +664,32 @@
         </div>
       </div>
     </section>
-    <!-- Footer -->
-    <footer>
+     <!-- Footer -->
+     <footer style="margin-top: 8%">
       <nav>
-      <ul>
-          <li><a href="#front">Cake</a></li>
-          <li><a href="#home">Cupcake</a></li>
-          <li><a href="#cakes">BentoCake</a></li>
-          <li><a href="#customized">Customized</a></li>
-          <li><a href="#about">SpecialCake</a></li>
-        </ul>
+      <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+          <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="homepage.php">News</a></li>
+                <li><a href="TAC.php">Policy</a></li>
+                <li><a href="contact-us.php">Contact Us</a></li>
+          </ul>
       </nav>
+
+      <div class="footerBottom">
+        <h3>*NOTE<h3>
+        <p style="font-size: 12px"><span class="designer">(Please note that the delivery date is 5–7 days after placing an order.<br> 
+          Once the order is submitted, changes to the provided details will not be possible.)</span></p>
+        <p style="font-size: 12px"><span class="designer">(*Prices may vary according to location)<br>
+        (Additional disclaimer: Actual food presentation in website may vary)</span></p>
+        <p style="font-size: 12px">Copyright &copy;2023; Designed by <span class="designer">BINI_BASIC</span></p>
+    </div>
     </footer>
 
     <script src="homepage.js"></script>

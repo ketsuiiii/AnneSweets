@@ -205,13 +205,13 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
-}
-
-footer nav ul {
+  }
+  
+  footer nav ul {
     justify-content: center;
-}
-
-footer a {
+  }
+  
+  footer a {
     color: white;
     margin: 0 10px;
-}
+  }

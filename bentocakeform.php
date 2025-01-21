@@ -20,6 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if ($connect->query($create_db_query) === TRUE) {
         echo '<div class="alert alert-success" role="alert">New record created successfully.</div>';
+        header('location: notif.php');
     } else {
         echo '<div class="alert alert-danger" role="alert">Error: ' . $connect->error . '</div>';
     }
@@ -101,7 +102,7 @@ unset($_SESSION["message"]);
                 </select>
             </div>
 
-            <button type="submit">Submit Order</button>
+            <a href="notif.php"><button type="submit">Submit Order</button></a>
         </form>
         <a href="homepage.php"><button type="submit" id="cancel">Cancel</button></a>
         <div id="confirmationMessage"></div>

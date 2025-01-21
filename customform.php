@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $toppings =  mysqli_real_escape_string($connect, $_POST["toppings"]);
     $suggestions =  mysqli_real_escape_string($connect, $_POST["suggestions"]);
     $layers =  mysqli_real_escape_string($connect, $_POST["layers"]);
-    $colors =  mysqli_real_escape_string($connect, $_POST["colors"]); 
+    $colors =  mysqli_real_escape_string($connect, $_POST["colors"]);
     $themes =  mysqli_real_escape_string($connect, $_POST["themes"]);
     $addresss =  mysqli_real_escape_string($connect, $_POST["addresss"]);
     $date_to_delivered =  mysqli_real_escape_string($connect, $_POST["date_to_delivered"]);
@@ -24,6 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if ($connect->query($create_db_query) === TRUE) {
         echo '<div class="alert alert-success" role="alert">New record created successfully.</div>';
+        header('location: notif.php');
     } else {
         echo '<div class="alert alert-danger" role="alert">Error: ' . $connect->error . '</div>';
     }
@@ -37,12 +38,14 @@ include "backend/phpmailer/custom_e.php";
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom Form</title>
     <link rel="stylesheet" href="customstyle.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Customize Cake Form</h1>
@@ -51,7 +54,7 @@ include "backend/phpmailer/custom_e.php";
                 <label for="fullName">Full Name:</label>
                 <input type="text" id="fullname" name="fullname" required>
             </div>
-            
+
             <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
@@ -141,7 +144,7 @@ include "backend/phpmailer/custom_e.php";
 
             <div class="form-group">
                 <label for="date_to_delivered">Date to be Delivered:</label>
-               <input type="date" name="date_to_delivered" id="date_to_delivered">
+                <input type="date" name="date_to_delivered" id="date_to_delivered">
                 </select>
             </div>
 
@@ -152,4 +155,5 @@ include "backend/phpmailer/custom_e.php";
     </div>
     <script src="javascript/customformscript.js"></script>
 </body>
+
 </html>

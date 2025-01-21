@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sweet Creations</title>
-    <link rel="stylesheet" href="bentocakes.css" />
+    <link rel="stylesheet" href="admin.bentocakes.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
@@ -17,24 +17,31 @@
 
       <nav>
         <ul class="right">
-          <li><a href="index.php">Front</a></li>
-          <li><a href="homepage.php">Products</a></li>
+          <li><a href="homepage.php">Admin</a></li>
           <li class="dropdown">
             <a href="#cakes">Category</a>
             <div class="dropdown-content">
-              <a href="birthdaycakes.php">Birthday Cakes</a>
-              <a href="cupcakes.php">Cupcakes</a>
-              <a href="bentocakes.php">Bento Cakes</a>
-              <a href="numbercakes.php">Number Cakes</a>
-              <a href="specialcakes.php">Specials</a>
+              <a href="admin.birthcakes.php">Birthday Cakes</a>
+              <a href="admin.cupcakes.php">Cupcakes</a>
+              <a href="admin.bentocakes.php">Bento Cakes</a>
+              <a href="admin.numbers.php">Number Cakes</a>
+              <a href="admin.special.php">Specials</a>
             </div>
           </li>
-          <li><a href="customized.php">Customize</a></li>
+          <li class="dropdown">
+            <a href="#orders">List of Orders</a>
+            <div class="dropdown-content">
+              <a href="orderhistory.php">Cakes List</a>
+              <a href="cupcakeshistory.php">Cupcakes List</a>
+              <a href="bentohistory.php">Bento Cakes List</a>
+              <a href="customehistory.php">Custom Cakes List</a>
+            </div>
+          </li>
           <li><a href="TAC.php">Policy</a></li>
-          <li><a href="contact-us.php">Contact Us</a></li>
         </ul>
       </nav>
       </div>
+    </header>
     </header>
     <h1 class="animate-heading">Customized Bento Cakes and Combos</h1>
     <!-- Latest Cakes Section -->
@@ -49,15 +56,6 @@
             />
             <h3>Dinosaur Themed Bento Cake</h3>
             <p>Price: ₱ 600-700</p>
-            <button class="order-button">
-              <span class="order-text">Order Now</span>
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-512/free-add-to-cart-icon-download-in-svg-png-gif-file-formats--ecommerce-shopping-trolley-miscellaneous-pack-user-interface-icons-1544741.png?f=webp&w=256"
-                width="20"
-                height="20"
-                alt="Cart Icon"
-              />
-            </button>
           </div>
           <div class="cake-card">
             <img
@@ -67,15 +65,6 @@
             />
             <h3>Black Butterfly Bento Combo</h3>
             <p>Price: ₱ 600-700</p>
-            <button class="order-button">
-              <span class="order-text">Order Now</span>
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-512/free-add-to-cart-icon-download-in-svg-png-gif-file-formats--ecommerce-shopping-trolley-miscellaneous-pack-user-interface-icons-1544741.png?f=webp&w=256"
-                width="20"
-                height="20"
-                alt="Cart Icon"
-              />
-            </button>
           </div>
           <div class="cake-card">
             <img
@@ -85,15 +74,6 @@
             />
             <h3>Unicorn Themed Bento Combo</h3>
             <p>Price: ₱ 600-700</p>
-            <button class="order-button">
-              <span class="order-text">Order Now</span>
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-512/free-add-to-cart-icon-download-in-svg-png-gif-file-formats--ecommerce-shopping-trolley-miscellaneous-pack-user-interface-icons-1544741.png?f=webp&w=256"
-                width="20"
-                height="20"
-                alt="Cart Icon"
-              />
-            </button>
           </div>
           <div class="cake-card">
             <img
@@ -103,15 +83,6 @@
             />
             <h3>Purple Bento Combo</h3>
             <p>Price:₱ 600-700</p>
-            <button class="order-button">
-              <span class="order-text">Order Now</span>
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-512/free-add-to-cart-icon-download-in-svg-png-gif-file-formats--ecommerce-shopping-trolley-miscellaneous-pack-user-interface-icons-1544741.png?f=webp&w=256"
-                width="20"
-                height="20"
-                alt="Cart Icon"
-              />
-            </button>
           </div>
           <div class="cake-card">
             <img
@@ -121,15 +92,6 @@
             />
             <h3>Butterfly Themed Bento Combo</h3>
             <p>Price: ₱ 600-700</p>
-            <button class="order-button">
-              <span class="order-text">Order Now</span>
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-512/free-add-to-cart-icon-download-in-svg-png-gif-file-formats--ecommerce-shopping-trolley-miscellaneous-pack-user-interface-icons-1544741.png?f=webp&w=256"
-                width="20"
-                height="20"
-                alt="Cart Icon"
-              />
-            </button>
           </div>
           <div class="cake-card">
             <img
@@ -139,15 +101,6 @@
             />
             <h3>Pink Silver Bento Cake</h3>
             <p>Price: ₱ 600-700</p>
-            <button class="order-button">
-              <span class="order-text">Order Now</span>
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-512/free-add-to-cart-icon-download-in-svg-png-gif-file-formats--ecommerce-shopping-trolley-miscellaneous-pack-user-interface-icons-1544741.png?f=webp&w=256"
-                width="20"
-                height="20"
-                alt="Cart Icon"
-              />
-            </button>
           </div>
           <div class="cake-card">
             <img
@@ -157,15 +110,6 @@
             />
             <h3>Black Butterfly Bento Combo</h3>
             <p>Price: ₱ 600-700</p>
-            <button class="order-button">
-              <span class="order-text">Order Now</span>
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-512/free-add-to-cart-icon-download-in-svg-png-gif-file-formats--ecommerce-shopping-trolley-miscellaneous-pack-user-interface-icons-1544741.png?f=webp&w=256"
-                width="20"
-                height="20"
-                alt="Cart Icon"
-              />
-            </button>
           </div>
           <div class="cake-card">
             <img
@@ -175,15 +119,6 @@
             />
             <h3>Unicorn Themed Bento Combo</h3>
             <p>Price: ₱ 600-700</p>
-            <button class="order-button">
-              <span class="order-text">Order Now</span>
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-512/free-add-to-cart-icon-download-in-svg-png-gif-file-formats--ecommerce-shopping-trolley-miscellaneous-pack-user-interface-icons-1544741.png?f=webp&w=256"
-                width="20"
-                height="20"
-                alt="Cart Icon"
-              />
-            </button>
           </div>
           <div class="cake-card">
             <img
@@ -193,15 +128,6 @@
             />
             <h3>Purple Bento Combo</h3>
             <p>Price:₱ 600-700</p>
-            <button class="order-button">
-              <span class="order-text">Order Now</span>
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-512/free-add-to-cart-icon-download-in-svg-png-gif-file-formats--ecommerce-shopping-trolley-miscellaneous-pack-user-interface-icons-1544741.png?f=webp&w=256"
-                width="20"
-                height="20"
-                alt="Cart Icon"
-              />
-            </button>
           </div>
           <div class="cake-card">
             <img
@@ -211,21 +137,12 @@
             />
             <h3>Butterfly Themed Bento Combo</h3>
             <p>Price: ₱ 600-700</p>
-            <button class="order-button">
-              <span class="order-text">Order Now</span>
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-512/free-add-to-cart-icon-download-in-svg-png-gif-file-formats--ecommerce-shopping-trolley-miscellaneous-pack-user-interface-icons-1544741.png?f=webp&w=256"
-                width="20"
-                height="20"
-                alt="Cart Icon"
-              />
-            </button>
           </div>
           
       </section>
      
-           <!-- Footer -->
-           <footer style="margin-top: 8%">
+    <!-- Footer -->
+    <footer style="margin-top: 8%">
       <nav>
       <div class="socialIcons">
             <a href=""><i class="fa-brands fa-facebook"></i></a>
@@ -251,7 +168,6 @@
         <p style="font-size: 12px">Copyright &copy;2023; Designed by <span class="designer">BINI_BASIC</span></p>
     </div>
     </footer>
-
     <script src="homepage.js"></script>
   </body>
 </html>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sweet Creations</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
       body {
         font-family: "Poppins", sans-serif;
@@ -210,21 +211,23 @@
         background-color: rgba(255, 255, 255, 0.3);
         transform: scale(1.1);
       }
+
       footer {
-        background-color: #333;
-        color: white;
-        padding: 20px;
-        text-align: center;
-      }
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
-      footer nav ul {
-        justify-content: center;
-      }
+footer nav ul {
+    justify-content: center;
+}
 
-      footer a {
-        color: white;
-        margin: 0 10px;
-      }
+footer a {
+    color: white;
+    margin: 0 10px;
+}
+
 
       .right {
         float: right;
@@ -254,7 +257,7 @@
             </div>
           </li>
           <li><a href="customized.php">Customize</a></li>
-          <li href="">Policy</li>
+          <li><a href="TAC.php">Policy</a></li>
           <li><a href="contact-us.php">Contact Us</a></li>
         </ul>
       </nav>
@@ -274,16 +277,6 @@
       bake your vision to perfection. Savor every moment with our handcrafted,
       custom-made cakes.
     </p>
-    <footer>
-      <nav>
-      <ul>
-          <li><a href="#front">Cake</a></li>
-          <li><a href="#home">Cupcake</a></li>
-          <li><a href="#cakes">BentoCake</a></li>
-          <li><a href="#customized">Customized</a></li>
-          <li><a href="#about">SpecialCake</a></li>
-        </ul>
-      </nav>
-    </footer>
+
   </body>
 </html>

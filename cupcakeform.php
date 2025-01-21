@@ -18,6 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if ($connect->query($create_db_query) === TRUE) {
         echo '<div class="alert alert-success" role="alert">New record created successfully.</div>';
+        header('location: notif.php');
     } else {
         echo '<div class="alert alert-danger" role="alert">Error: ' . $connect->error . '</div>';
     }

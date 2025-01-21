@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f7f7f7;
-    font-size: 16px; /* Base font size */
 }
 
 @keyframes slideInFromLeft {
@@ -18,7 +17,7 @@ body {
 }
 
 .animate-heading {
-    animation: slideInFromLeft 1s ease-out;
+    animation: slideInFromLeft 1s ease-out; /* Apply the animation to the heading */
     text-align: center;
 }
 
@@ -31,9 +30,7 @@ header {
     backdrop-filter: blur(10px);
     position: sticky;
     top: 0;
-    width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
     animation: slideDown 0.5s ease-out;
 }
 
@@ -62,24 +59,17 @@ header {
     height: 50px;
     margin-right: 10px;
     animation: fadeIn 1s ease-in;
-    width: 70px;
-    height: 70px;
+    width: 100%; /* Make the image fill the circle */
+    height: 100%; /* Make the image fill the circle */
     object-fit: cover;
-    border-radius: 50%;
+    width: 70px; /* Set the width and height to the same value to create a circle */
+    height: 70px;
+    border-radius: 50%; /* Make the border-radius 50% to create a circle */
     overflow: hidden;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-    background-color: #f8f8f8;
-    padding: 10px;
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     gap: 15px;
 }
@@ -130,152 +120,76 @@ nav a:hover {
         opacity: 1;
     }
 }
-
 main {
     display: flex;
     flex-wrap: wrap;
-    min-height: calc(100vh - 100px); /* Adjust for header and footer */
-}
-
-.intro {
+  }
+  
+  .intro {
     flex: 0 0 70%;
     padding: 50px;
     box-sizing: border-box;
-}
-
-.order-box {
+  }
+  
+  .order-box {
     flex: 0 0 30%;
     background-color: #f8f8f8;
     padding: 50px 20px;
     box-sizing: border-box;
     text-align: center;
-}
-
-h1, h2 {
+  }
+  
+  h1, h2 {
     font-size: 2em;
     color: #ff9472;
     margin: 10px 0;
     animation: fadeIn 2s ease-in;
-}
+  }
 
-p {
+  p {
     font-size: 1.2em;
     line-height: 1.6;
+    /* max-width: 800px; */
+    /* margin: 0 auto; */
+    /* padding: 0 20px; */
     animation: fadeIn 2s ease-in;
     margin-bottom: 25px;
-}
-
-.order-box h2 {
+  }
+  .order-box h2 {
     margin-bottom: 30px;
-}
-
-.order-box button {
+  }
+  
+  .order-box button {
     background-color: #ff6f61;
     color: white;
     padding: 15px 25px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.order-box button:hover {
+  
+  .order-box button:hover {
     background-color: #ff4c3b;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
+  }
+  
+  footer {
+    background-color: #fffefe;
+    color: rgb(12, 9, 9);
+    padding: 20px;
     text-align: center;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-}
-
-footer nav ul {
-    display: flex;
+  }
+  
+  footer nav ul {
     justify-content: center;
-    gap: 15px;
-}
-
-footer a {
-    color: white;
+  }
+  
+  footer a {
+    color: rgb(0, 0, 0);
     margin: 0 10px;
-}
-
-/* Responsive styles for mobile */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px; /* Smaller font size for mobile */
-    }
-
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-        position: fixed;
-        top: 0;
-        left: -250px;
-        width: 250px;
-        height: 100%;
-        transition: left 0.3s ease;
-        z-index: 1000;
-    }
-
-    nav.open {
-        left: 0;
-    }
-
-    .menu-toggle {
-        display: block;
-        cursor: pointer;
-        margin: 10px;
-    }
-
-    nav ul {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    .order-box {
-        margin-top: 10px;
-    }
-
-    footer nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
-
-/* Responsive styles for laptops */
-@media (min-width: 769px) and (max-width: 1200px) {
-    body {
-        font-size: 15px; /* Adjusted font size for laptops */
-    }
-
-    .intro {
-        flex: 0 0 60%;
-    }
-
-    .order-box {
-        flex: 0 0 40%;
-    }
-
-    h1, h2 {
-        font-size: 1.8em;
-    }
-
-    p {
-        font-size: 1.1em;
-    }
-}
+  }
