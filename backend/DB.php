@@ -5,10 +5,10 @@ $username = "root";
 $password = "";
 $dbname = "cakeydb";
 
-$host = "127.0.0.1:3306";
-$username = "u181296074_binibasic";
-$password = "Binibasic_access2025";
-$dbname = "u181296074_sweetcakedb";
+// $host = "127.0.0.1:3306";
+// $username = "u181296074_binibasic";
+// $password = "Binibasic_access2025";
+// $dbname = "u181296074_sweetcakedb";
 
 $connect = new mysqli($host, $username, $password);
 

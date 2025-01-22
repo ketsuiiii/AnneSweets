@@ -26,7 +26,7 @@
             </li>
             <li><a href="customized.php">Customize</a></li>
             <li><a href="TAC.php">Policy</a></li>
-            <li><a href="contact-us.php">Contact Us</a></li>
+            <li><a href="about.php">Contact Us</a></li>
         </ul>
     </nav>
 </header>
