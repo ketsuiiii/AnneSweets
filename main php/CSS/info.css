@@ -1,0 +1,160 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa; /* Light blue background */
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  color: #0288d1; /* Blue text */
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #4fc3f7;
+  /*Bluebutton*/color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-transition: background-color 0.3s, transform 0.3s;
+  -moz-transition: background-color 0.3s, transform 0.3s;
+  -ms-transition: background-color 0.3s, transform 0.3s;
+  -o-transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  background-color: #29b6f6; /* Darker blue on hover */
+  transform: translateY(-3px);
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #4fc3f7; /* Blue text */
+  margin: 10px 0;
+}
+
+p {
+  font-size: 0.9em;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.owner-info,
+.contact-info {
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.owner-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.owner-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info ul,
+.owner-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li,
+.owner-info li {
+  margin-bottom: 10px;
+}
+
+.contact-logo {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.custom-button {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #4fc3f7; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #29b6f6; /* Darker blue on hover */
+  transform: translateY(-3px);
+}
+
+footer {
+  background-color: #0288d1; /* Darker blue */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer nav ul {
+  justify-content: center;
+}
+
+footer a {
+  color: white;
+  margin: 0 10px;
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    flex-wrap: nowrap;
+  }
+
+  .owner-info {
+    width: 65%;
+  }
+
+  .contact-info {
+    width: 30%;
+  }
+}

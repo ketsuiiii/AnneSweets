@@ -4,7 +4,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 
 $msg = '';
 if (array_key_exists('email', $_POST)) {
-    require 'vendor/autoload.php';
+    require '../vendor/autoload.php';
     $mail = new PHPMailer;
     $mail->isSMTP();
     $mail->Host = 'smtp.hostinger.com';

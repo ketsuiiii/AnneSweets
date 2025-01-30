@@ -1,0 +1,135 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container, .product-container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container {
+    width: 500px;
+    margin-left: 20px;
+}
+
+.product-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 400px;
+    margin-right: 20px;
+}
+
+.container:hover, .product-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff6f61;
+}
+
+.product-image {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 97%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #ff6f61;
+}
+
+button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+button:hover {
+    background-color: #ff9472;
+}
+
+p {
+    font-weight: normal;
+    font-size: medium;
+    /* text-indent: 0px; */
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-container, .container {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .product-container {
+        order: -1;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}

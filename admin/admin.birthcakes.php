@@ -16,7 +16,7 @@
     <section id="latest-birthday-cakes">
       <div class="cake-card">
         <img
-          src="../Cakes\02-Butterfly themed cake.jpg"
+          src="../..\Cakes\02-Butterfly themed cake.jpg"
           height="250px"
           width="150px"
         />
@@ -25,7 +25,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cakes\03-Rainbow themed cake.jpg"
+          src="../..\Cakes\03-Rainbow themed cake.jpg"
           height="250px"
           width="150px"
         />
@@ -34,7 +34,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cakes\01-Cinnamoroll themed cake .jpg"
+          src="../..\Cakes\01-Cinnamoroll themed cake .jpg"
           height="250px"
           width="150px"
         />
@@ -43,7 +43,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cakes\06-Cars themed cake.jpg"
+          src="../..\Cakes\06-Cars themed cake.jpg"
           height="250px"
           width="150px"
         />
@@ -52,7 +52,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cakes\05-Paw patrol skye themed cake.jpg"
+          src="../..\Cakes\05-Paw patrol skye themed cake.jpg"
           height="250px"
           width="150px"
         />
@@ -61,7 +61,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cakes\08-Princess themed cake.jpg"
+          src="../..\Cakes\08-Princess themed cake.jpg"
           height="250px"
           width="150px"
         />
@@ -70,7 +70,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cakes\01-Cinnamoroll themed cake .jpg"
+          src="../..\Cakes\01-Cinnamoroll themed cake .jpg"
           height="250px"
           width="150px"
         />
@@ -79,7 +79,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cakes\06-Cars themed cake.jpg"
+          src="../..\Cakes\06-Cars themed cake.jpg"
           height="250px"
           width="150px"
         />
@@ -88,7 +88,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cakes\05-Paw patrol skye themed cake.jpg"
+          src="../..\Cakes\05-Paw patrol skye themed cake.jpg"
           height="250px"
           width="150px"
         />
@@ -97,7 +97,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cakes\08-Princess themed cake.jpg"
+          src="../..\Cakes\08-Princess themed cake.jpg"
           height="250px"
           width="150px"
         />

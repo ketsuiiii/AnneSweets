@@ -78,7 +78,7 @@
         display: flex;
         align-items: center;
         padding: 15px;
-        border-radius: 10px;
+        /* border-radius: 10px; */
         transition: all 0.3s ease;
       }
       .sidebar ul li a i {

@@ -19,7 +19,7 @@
 
           <div class="cake-card">
             <img
-              src="../Bentocakes\02-Dinosaur bento cake.jpg"
+              src="../Bento..\Cakes\02-Dinosaur bento cake.jpg"
               height="200px"
               width="200px"
             />
@@ -28,7 +28,7 @@
           </div>
           <div class="cake-card">
             <img
-              src="../Bentocakes\11-Black butterfly bento combo.jpg"
+              src="../Bento..\Cakes\11-Black butterfly bento combo.jpg"
               height="200px"
               width="200px"
             />
@@ -37,7 +37,7 @@
           </div>
           <div class="cake-card">
             <img
-              src="../Bentocakes\16-Unicorn bento combo.jpg"
+              src="../Bento..\Cakes\16-Unicorn bento combo.jpg"
               height="200px"
               width="200px"
             />
@@ -46,7 +46,7 @@
           </div>
           <div class="cake-card">
             <img
-              src="../Bentocakes\07-Purple bento combo.jpg"
+              src="../Bento..\Cakes\07-Purple bento combo.jpg"
               height="200px"
               width="200px"
             />
@@ -55,7 +55,7 @@
           </div>
           <div class="cake-card">
             <img
-              src="../Bentocakes\19-Butterfly bento combo.jpg"
+              src="../Bento..\Cakes\19-Butterfly bento combo.jpg"
               height="200px"
               width="200px"
             />
@@ -64,7 +64,7 @@
           </div>
           <div class="cake-card">
             <img
-              src="../Bentocakes\05-PinkSilver bento.jpg"
+              src="../Bento..\Cakes\05-PinkSilver bento.jpg"
               height="200px"
               width="200px"
             />
@@ -73,7 +73,7 @@
           </div>
           <div class="cake-card">
             <img
-              src="../Bentocakes\11-Black butterfly bento combo.jpg"
+              src="../Bento..\Cakes\11-Black butterfly bento combo.jpg"
               height="200px"
               width="200px"
             />
@@ -82,7 +82,7 @@
           </div>
           <div class="cake-card">
             <img
-              src="../Bentocakes\16-Unicorn bento combo.jpg"
+              src="../Bento..\Cakes\16-Unicorn bento combo.jpg"
               height="200px"
               width="200px"
             />
@@ -91,7 +91,7 @@
           </div>
           <div class="cake-card">
             <img
-              src="../Bentocakes\07-Purple bento combo.jpg"
+              src="../Bento..\Cakes\07-Purple bento combo.jpg"
               height="200px"
               width="200px"
             />
@@ -100,7 +100,7 @@
           </div>
           <div class="cake-card">
             <img
-              src="../Bentocakes\19-Butterfly bento combo.jpg"
+              src="../Bento..\Cakes\19-Butterfly bento combo.jpg"
               height="200px"
               width="200px"
             />

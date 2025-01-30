@@ -18,7 +18,7 @@
 
         <div class="cake-card">
           <img
-            src="../Numbercakes\01-Detective conan theme.jpg"
+            src="../Number..\Cakes\01-Detective conan theme.jpg"
             height="200px"
             width="200px"
           />
@@ -27,7 +27,7 @@
         </div>
         <div class="cake-card">
           <img
-            src="../Numbercakes\02-Alladin theme.jpg"
+            src="../Number..\Cakes\02-Alladin theme.jpg"
             height="200px"
             width="200px"
           />
@@ -36,7 +36,7 @@
         </div>
         <div class="cake-card">
           <img
-            src="../Numbercakes\03-Sunflower theme.jpg"
+            src="../Number..\Cakes\03-Sunflower theme.jpg"
             height="200px"
             width="200px"
           />
@@ -45,7 +45,7 @@
         </div>
         <div class="cake-card">
           <img
-            src="../Numbercakes\04-Hercules theme.jpg"
+            src="../Number..\Cakes\04-Hercules theme.jpg"
             height="200px"
             width="200px"
           />
@@ -54,7 +54,7 @@
         </div>
         <div class="cake-card">
           <img
-            src="../Numbercakes\05-Paw patrol theme.jpg"
+            src="../Number..\Cakes\05-Paw patrol theme.jpg"
             height="200px"
             width="200px"
           />
@@ -63,7 +63,7 @@
         </div>
         <div class="cake-card">
           <img
-            src="../Numbercakes\06-Donald duck theme.jpg"
+            src="../Number..\Cakes\06-Donald duck theme.jpg"
             height="200px"
             width="200px"
           />
@@ -72,7 +72,7 @@
         </div>
         <div class="cake-card">
           <img
-            src="../Numbercakes\02-Alladin theme.jpg"
+            src="../Number..\Cakes\02-Alladin theme.jpg"
             height="200px"
             width="200px"
           />
@@ -81,7 +81,7 @@
         </div>
         <div class="cake-card">
           <img
-            src="../Numbercakes\03-Sunflower theme.jpg"
+            src="../Number..\Cakes\03-Sunflower theme.jpg"
             height="200px"
             width="200px"
           />
@@ -90,7 +90,7 @@
         </div>
         <div class="cake-card">
           <img
-            src="../Numbercakes\04-Hercules theme.jpg"
+            src="../Number..\Cakes\04-Hercules theme.jpg"
             height="200px"
             width="200px"
           />
@@ -99,7 +99,7 @@
         </div>  
         <div class="cake-card">
           <img
-            src="../Numbercakes\06-Donald duck theme.jpg"
+            src="../Number..\Cakes\06-Donald duck theme.jpg"
             height="200px"
             width="200px"
           />

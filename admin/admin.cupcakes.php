@@ -16,7 +16,7 @@
     <section id="latest-cupcakes" class="section-background">
       <div class="cake-card">
         <img
-          src="../Cupcakes\01-Butterfly themed cupcake.jpg"
+          src="../..\Cupcakes\01-Butterfly themed cupcake.jpg"
           height="200px"
           width="200px"
         />
@@ -25,7 +25,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cupcakes\02-Rainbow themed cupcake.jpg"
+          src="../..\Cupcakes\02-Rainbow themed cupcake.jpg"
           height="200px"
           width="200px"
         />
@@ -34,7 +34,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cupcakes\04-Cars themed cupcake.jpg"
+          src="../..\Cupcakes\04-Cars themed cupcake.jpg"
           height="200px"
           width="200px"
         />
@@ -43,7 +43,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cupcakes\07-Butterfly themed cupcake.jpg"
+          src="../..\Cupcakes\07-Butterfly themed cupcake.jpg"
           height="200px"
           width="200px"
         />
@@ -52,7 +52,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cupcakes\03-White purple cupcake.jpg"
+          src="../..\Cupcakes\03-White purple cupcake.jpg"
           height="200px"
           width="200px"
         />
@@ -61,7 +61,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cupcakes\08-Pink gold cupcake.jpg"
+          src="../..\Cupcakes\08-Pink gold cupcake.jpg"
           height="200px"
           width="200px"
         />
@@ -70,7 +70,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cupcakes\01-Butterfly themed cupcake.jpg"
+          src="../..\Cupcakes\01-Butterfly themed cupcake.jpg"
           height="200px"
           width="200px"
         />
@@ -79,7 +79,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cupcakes\02-Rainbow themed cupcake.jpg"
+          src="../..\Cupcakes\02-Rainbow themed cupcake.jpg"
           height="200px"
           width="200px"
         />
@@ -88,7 +88,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cupcakes\04-Cars themed cupcake.jpg"
+          src="../..\Cupcakes\04-Cars themed cupcake.jpg"
           height="200px"
           width="200px"
         />
@@ -97,7 +97,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cupcakes\07-Butterfly themed cupcake.jpg"
+          src="../..\Cupcakes\07-Butterfly themed cupcake.jpg"
           height="200px"
           width="200px"
         />
@@ -106,7 +106,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cupcakes\03-White purple cupcake.jpg"
+          src="../..\Cupcakes\03-White purple cupcake.jpg"
           height="200px"
           width="200px"
         />
@@ -115,7 +115,7 @@
       </div>
       <div class="cake-card">
         <img
-          src="../Cupcakes\08-Pink gold cupcake.jpg"
+          src="../..\Cupcakes\08-Pink gold cupcake.jpg"
           height="200px"
           width="200px"
         />

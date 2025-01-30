@@ -1,6 +1,6 @@
 <?php
 
-require_once('backend/DB.php');
+require_once('DB.php');
 
 //$dropSQL = "DROP TABLE IF EXISTS ordertbl";
  //if (mysqli_query($connect, $dropSQL)) {

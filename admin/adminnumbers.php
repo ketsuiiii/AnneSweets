@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sweet Creations Admin</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet Creations</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
@@ -15,6 +15,10 @@
             flex-direction: column;
             background-color: #f9f9fb;
             color: #333;
+        }
+
+        span {
+            margin-right: 25px;
         }
 
         .navbar {
@@ -62,10 +66,6 @@
 
         .sidebar.active {
             transform: translateX(0);
-        }
-
-        span {
-            margin-right: 25px;
         }
 
         .logo {
@@ -131,53 +131,44 @@
         }
 
         .content {
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
-            flex-grow: 1;
-            margin-top: 60px; /* Adjust for fixed navbar */
+            text-align: center;
+            margin-top: 70px; /* Adjust for fixed navbar */
         }
 
         h1.animate-heading {
-            text-align: center;
-            color: #ff6f61;
-            animation: fadeIn 2s ease-in-out;
-        }
-
-        .contact-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            margin-top: 20px;
-            animation: fadeIn 2s ease-in-out;
-        }
-
-        .owner-info,
-        .contact-info {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 100%;
+            font-size: 2.5em;
+            color: #333;
             margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out;
         }
 
-        h2,
-        p {
-            text-align: center;
+        .cake-card {
+            display: inline-block;
+            width: 200px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
         }
 
-        .owner-pic img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            display: block;
-            margin: 0 auto 10px;
+        .cake-card img {
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
         }
 
-        .contact-logo {
-            width: 20px;
-            height: 20px;
-            vertical-align: middle;
-            margin-right: 10px;
+        .cake-card h3 {
+            font-size: 1.2em;
+            color: #555;
+            padding: 10px;
+        }
+
+        .cake-card:hover {
+            transform: translateY(-10px);
         }
 
         @keyframes fadeIn {
@@ -190,21 +181,33 @@
             }
         }
 
-        @media (min-width: 600px) {
-            .contact-container {
-                flex-direction: row;
+        @media (max-width: 768px) {
+            section {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
             }
-
-            .owner-info,
-            .contact-info {
-                width: 45%;
+            .cake-card {
+                width: 40%;
+                height: 250px;
+                margin-bottom: 20px;
+            }
+            h1.animate-heading {
+                font-size: 25px;
+            }
+            img {
+                height: 70%;
+            }
+            .cake-card h3 {
+                font-size: 15px;
+                margin-top: 0;
             }
         }
     </style>
 </head>
 
 <body>
-    <div class="navbar">
+<div class="navbar">
         <button class="toggle-btn" id="toggleBtn">Toggle Sidebar</button>
         <span>Sweet Creations Admin</span>
     </div>
@@ -215,7 +218,7 @@
                 <img src="../Logo/Logo.jpg" style="width:50px; height:50px" />
             </a>
             <span>Sweet Creations</span>
-        </div>
+            </div>
         <ul>
             <li>
                 <a href="index.php">
@@ -227,7 +230,7 @@
                 <a href="#cakes">
                     <i class="fas fa-birthday-cake"></i>
                     <span>Category</span>
-                    </a>
+                </a>
                 <ul class="dropdown-content">
                     <li><a href="adminbirthday.php"><i class="fas fa-birthday-cake"></i> <span>Birthday Cakes</span></a></li>
                     <li><a href="adminbento.php"><i class="fas fa-box"></i> <span>Bento Cakes</span></a></li>
@@ -249,26 +252,33 @@
     </div>
 
     <div class="content" id="content">
-        <h1 class="animate-heading">SWEET ADMIN</h1>
-        <div class="contact-container">
-            <div class="owner-info">
-                <div class="owner-pic">
-                    <img src="../Logo/Anne.jpg" />
-                </div>
-                <h2>Anne</h2>
-                <p class="big text">Welcome to Sweet Creations Admin Anne!</p>
-                <p class="big text">Manage your orders effortlessly and keep the sweetness flowing. You're in control here at Sweet Creation!</p>
+        <h1 class="animate-heading">Customized Number Cakes</h1>
+        <section id="latest-number-cakes" class="section-background">
+            <div class="cake-card">
+                <img src="../Numbercakes/01-Detective conan theme.jpg" height="200px" width="200px" />
+                <h3>Detective Conan Theme</h3>
             </div>
-
-            <div class="contact-info">
-                <h2>Contact Us With:</h2>
-                <ul>
-                    <li><img src="../Logo/facebook.png" alt="" class="contact-logo" /> Facebook Page: <a href="https://www.facebook.com/sweetcreationsbyanne14">Sweet Creations</a></li>
-                    <li><img src="../Logo/email.png" alt="" class="contact-logo" /> Email: <a href="mailto:dinoanne20@gmail.com">dinoanne20@gmail.com</a></li>
-                    <li><img src="../Logo/facebook.png" alt="" class="contact-logo" /> Facebook Acc: <a href="facebookacclink">Anne</a></li>
-                </ul>
+            <div class="cake-card">
+                <img src="../Numbercakes/02-Alladin theme.jpg" height="200px" width="200px" />
+                <h3>Alladin Theme</h3>
             </div>
-        </div>
+            <div class="cake-card">
+                <img src="../Numbercakes/03-Sunflower theme.jpg" height="200px" width="200px" />
+                <h3>Sunflower Theme</h3>
+            </div>
+            <div class="cake-card">
+                <img src="../Numbercakes/04-Hercules theme.jpg" height="200px" width="200px" />
+                <h3>Hercules Theme</h3>
+            </div>
+            <div class="cake-card">
+                <img src="../Numbercakes/05-Paw patrol theme.jpg" height="200px" width="200px" />
+                <h3>Paw Patrol Theme</h3>
+            </div>
+            <div class="cake-card">
+                <img src="../Numbercakes/06-Donald duck theme.jpg" height="200px" width="200px" />
+                <h3>Donald Duck Theme</h3>
+            </div>
+        </section>
     </div>
 
     <script>
